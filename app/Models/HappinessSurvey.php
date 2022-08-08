@@ -27,19 +27,19 @@ class HappinessSurvey extends Model
             "label" => "Input manual id", "type" => "text"
         ], 
         ["name" => "location",
-            "label" => "Input location","type" => "text"
+            "label" => "Where are you taking this?","type" => "text"
         ],
         ["name" => "name",
-            "label" => "name","type" => "text"
+            "label" => "What's your name?","type" => "text"
         ],
         ["name" => "age",
-            "label" => "age","type" => "number"
+            "label" => "How old are you?","type" => "number"
         ], 
         ["name" => "occupation",
-            "label" => "occupation","type" => "text"
+            "label" => "What do you do for a living?","type" => "text"
         ], 
         ["name" => "from",
-            "label" => "from","type" => "text"
+            "label" => "Where are you from?","type" => "text"
         ], 
         ["name" => "q1",
             "label" => "What do you think it means to be happy?","type" => "textarea"
