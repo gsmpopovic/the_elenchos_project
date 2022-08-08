@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('happiness_surveys', function (Blueprint $table) {
             $table->id();
             $table->string("manual_id")->nullable();
+            $table->string("location")->nullable();
             $table->string("name")->nullable();
             $table->string("age")->nullable();
             $table->string("occupation")->nullable();
