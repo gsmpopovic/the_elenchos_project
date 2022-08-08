@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/survey', function () {
     return view('livewire.happiness-survey');
-});
+})->name("survey.create");
 
 Route::middleware([
     'auth:sanctum',
