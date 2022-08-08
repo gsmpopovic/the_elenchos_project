@@ -1,4 +1,9 @@
 <x-app-layout>
+  <x-slot name="header">
+    <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        {{ __('Happiness Survey') }}
+    </h2>
+  </x-slot>
     <div class="w-full md:flex md:justify-center my-6">
         <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" wire:submit.prevent="submit">
 
