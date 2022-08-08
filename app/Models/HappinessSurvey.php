@@ -23,11 +23,11 @@ class HappinessSurvey extends Model
     ];
 
     public static $fields = [
-        ["name" => "manual_id",
-            "label" => "Input manual id", "type" => "text"
-        ], 
+        // ["name" => "manual_id",
+        //     "label" => "Input manual id", "type" => "text"
+        // ], 
         ["name" => "location",
-            "label" => "Where are you taking this?","type" => "text"
+            "label" => "Where are you taking this? (city, country)","type" => "text"
         ],
         ["name" => "name",
             "label" => "What's your name?","type" => "text"
